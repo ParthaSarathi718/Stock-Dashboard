@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api/v1';
+const API_BASE_URL = 'https://stock-dashboard-o64y.onrender.com';
 
 // Setup global Axios interceptor for JWT insertion
 axios.interceptors.request.use(config => {
